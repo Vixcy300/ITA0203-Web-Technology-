@@ -1,0 +1,11 @@
+
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <h2>Date and Time</h2>
+ <p id="datetime"></p>
+ <script>
+ document.getElementById("datetime").innerHTML = new Date();
+ </script>
+ </body>
+</html>

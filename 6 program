@@ -1,0 +1,111 @@
+Html:
+<head>
+    <title>Organized Elements with Class Selectors</title>
+    <link rel="stylesheet" href="6.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1 class="title">Welcome to My Web Page</h1>
+    </header>
+
+    <section class="content">
+        <p class="intro">This is a sample paragraph to demonstrate the use of class selectors in CSS.</p>
+        <p class="info">Each section is styled separately using external CSS.</p>
+    </section>
+
+    <section class="image-section">
+        <img src="https://via.placeholder.com/300" alt="Sample Image" class="sample-image">
+    </section>
+
+    <section class="button-section">
+        <button class="primary-button">Click Me</button>
+        <button class="secondary-button">Cancel</button>
+    </section>
+
+    <footer class="main-footer">
+        <p class="footer-text">© 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+Css:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.main-header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.intro {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.info {
+    color: #888;
+    font-style: italic;
+}
+
+.image-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #eef;
+}
+
+.sample-image {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.button-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.primary-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondary-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-text {
+    margin: 0;
+}

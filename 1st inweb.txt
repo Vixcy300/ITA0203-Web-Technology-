@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script>console.log("Hello!");</script>
+</head>
+<body>
+  <h1>Welcome</h1>
+</body>
+<footer>
+  <p>© 2025</p>
+</footer>

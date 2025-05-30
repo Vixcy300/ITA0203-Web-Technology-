@@ -1,0 +1,15 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ img { width: 100%; height: 300px; }
+ input[type=radio] { margin: 10px; }
+ </style>
+ </head>
+ <body>
+ <input type="radio" name="slider" onclick="document.getElementById('img').src='1.jpg'"
+ checked>Image 1
+ <input type="radio" name="slider" onclick="document.getElementById('img').src='2.jpg'">Image 2
+ <img id="img" src="1.jpg" alt="Slider">
+ </body>
+ </html>

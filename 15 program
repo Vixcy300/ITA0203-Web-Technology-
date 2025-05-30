@@ -1,0 +1,13 @@
+ <html>
+ <head>
+ <style>
+ body {
+  background-image: url('https://tinyjpg.com/images/social/website.jpg');
+  background-repeat: repeat-x;
+ }
+ </style>
+ </head>
+ <body>
+ <h1>Background Repeat</h1>
+ </body>
+ </html>

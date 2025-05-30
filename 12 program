@@ -1,0 +1,14 @@
+ 12. Internal CSS Style Sheet
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ h1 { color: blue; }
+ p { font-size: 14px; color: green; }
+ </style>
+ </head>
+ <body>
+ <h1>Title</h1>
+ <p>This is a paragraph.</p>
+ </body>
+ </html>

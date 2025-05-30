@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    onload = () => {
+      let n = +prompt("Enter a number");
+      alert("Nearest odd: " + (n % 2 ? n : n + 1));
+    }
+  </script>
+</head>
+<body></body>
+</html>

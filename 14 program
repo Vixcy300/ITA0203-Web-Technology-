@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Two Boxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+  </div>
+
+</body>
+</html>
+
+CSS (style.css)
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  justify-content: center;
+}
+
+.box1, .box2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.box2 {
+  background-color: #2196F3;
+}

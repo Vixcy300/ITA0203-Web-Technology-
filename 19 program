@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <h1>Job Portal</h1>
+ <form>
+  <label>Name:</label><input type="text"><br>
+  <label>Email:</label><input type="email"><br>
+  <input type="submit" value="Apply">
+ </form>
+ </body>
+ </html>
+
+ 
+ ---- style.css
+ body { font-family: Arial; background-color: #f0f0f0; }
+ form { padding: 20px; background: white; border: 1px solid #ccc; }

@@ -1,0 +1,37 @@
+Html:
+<html>	
+<head>
+  <title>Relative Positioning Example</title>
+  <link rel="stylesheet" href="3rd.css">
+</head>
+<body>
+  <div class="parent">
+    <div class="child">Child (relative to parent)</div>
+  </div>
+  <div class="self">Element (relative to itself)</div>
+</body>
+</html>
+CSS:
+.parent {
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+  position: relative;
+}
+
+.child {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.self {
+  position: relative;
+  top: 40px;
+  left: 50px;
+  background-color: lightgreen;
+  padding: 10px;
+  margin-top: 20px;
+}

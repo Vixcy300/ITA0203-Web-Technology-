@@ -1,0 +1,17 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ .icon {
+  font-size: 30px;
+  position: fixed;
+}
+  top: 10px;
+  right: 10px;
+ </style>
+ </head>
+ <body>
+ <h1>Hello</h1>
+ <div class="icon">ICON</div>
+ </body>
+ </html>

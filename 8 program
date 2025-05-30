@@ -1,0 +1,53 @@
+Html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Object Operations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .output {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>JavaScript Number Operations</h2>
+
+    <label>Enter a Number: <input type="number" id="userNumber" value="123.456789"></label>
+    <button onclick="performOperations()">Run</button>
+
+    <div class="output" id="result"></div>
+
+    <script>
+        function performOperations() {
+            const num = parseFloat(document.getElementById("userNumber").value);
+            let output = "";
+
+            // 1. Exponential value
+            output += <strong>Exponential:</strong> ${num.toExponential(2)}<br>;
+
+            // 2. Limit decimal digits (to 3 decimal places)
+            output += <strong>Fixed (3 decimals):</strong> ${num.toFixed(3)}<br>;
+
+            // 3. Convert to string
+            output += <strong>To String:</strong> ${num.toString()}<br>;
+
+            // 4. Negative Infinity
+            const negInf = -Number.MAX_VALUE * 2;
+            output += <strong>Negative Infinity:</strong> ${Number.NEGATIVE_INFINITY}<br>;
+            output += <strong>Using math:</strong> ${negInf}<br>;
+
+            document.getElementById("result").innerHTML = output;
+        }
+    </script>
+</body>
+</html>

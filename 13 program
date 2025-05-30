@@ -1,0 +1,11 @@
+ <html>
+ <head>
+ <style>
+ h2 { color: red; }
+ </style>
+ </head>
+ <body>
+ <h1 style="color: blue;">Inline CSS</h1>
+ <h2>Internal CSS</h2>
+ </body>
+ </html>

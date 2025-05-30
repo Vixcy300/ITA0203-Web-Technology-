@@ -1,0 +1,96 @@
+Html:
+<head>
+  
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Employee Registration Form</h2>
+        <form>
+            <label for="name">Employee Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="id">Employee ID:</label>
+            <input type="text" id="id" name="id" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+            <label for="city">Select City:</label>
+            <select id="city" name="city" required>
+                <option value="">--Select City--</option>
+                <option value="newyork">New York</option>
+                <option value="chicago">Chicago</option>
+                <option value="losangeles">Los Angeles</option>
+                <option value="houston">Houston</option>
+                <option value="miami">Miami</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+Css:
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

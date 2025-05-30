@@ -1,0 +1,10 @@
+ <!DOCTYPE html>
+ <html>
+ <body>
+ <table border="1">
+ <tr><th>Name</th><th>Math</th><th>Science</th></tr>
+<tr><td>John</td><td>85</td><td>90</td></tr>
+ <tr><td>Jane</td><td>88</td><td>95</td></tr>
+ </table>
+ </body>
+ </html>
